@@ -14,9 +14,10 @@ gulp.task('devSass', function() {
 
 gulp.task('devJs', function() {
     return gulp.src('./src/js/page/*.js')
-        .pipe(uglify())
         .pipe(concat('index.js'))
+        .pipe(uglify())
         .pipe(gulp.dest('./src/js/'));
+
 })
 
 gulp.task('devServer', function() {
