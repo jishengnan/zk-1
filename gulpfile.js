@@ -37,11 +37,11 @@ gulp.task('watch', function() {
 gulp.task('default', gulp.series('devSass', 'devJs', 'devServer', 'watch'));
 
 gulp.task('js', function() {
-    return gulp.series('./src/js/*.js')
+    return gulp.src('./src/js/*.js')
         .pipe(gulp.dest('./dist/js'))
 })
 gulp.task('css', function() {
-    return gulp.series('./src/css/*.css')
+    return gulp.src('./src/css/*.css')
         .pipe(gulp.dest('./dist/css'))
 })
 

@@ -19,7 +19,31 @@ body,
 
 header {
     width: 100%;
-    height: 100px;
-    background: url('../img/1.png') no-repeat;
-    background-size: contain;
+    height: 50px;
+    img {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+main {
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+    img {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    img {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
 }

@@ -1,0 +1,1 @@
+var a=10,b=12,c=a+b;console.log(c);var d=20,e=30,f=d+e;console.log(f);
